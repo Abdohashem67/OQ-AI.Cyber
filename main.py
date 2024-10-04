@@ -17,10 +17,6 @@ from cirq.sim.sparse_simulator import Simulator
 import numpy as np
 import sympy
 from flask import Flask, request, jsonify
-from twilio.rest import Client
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 import hashlib
 import sqlite3
 from base64 import b64encode, b64decode
