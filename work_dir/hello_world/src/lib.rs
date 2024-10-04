@@ -1,0 +1,1 @@
+#![cfg_attr(not(feature = "std"), no_std)]\n\nuse ink_lang as ink;\n\n#[ink::contract]\npub mod hello_world {\n    #[ink(constructor)]\n    pub fn new() -> Self {\n        Self {}\n    }\n\n    #[ink(message)]\n    pub fn hello(&self) -> &str {\n        "Hello, World!"\n    }\n}
