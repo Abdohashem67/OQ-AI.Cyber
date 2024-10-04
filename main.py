@@ -29,8 +29,7 @@ from typing import Tuple, List, Union
 
 app = Flask(__name__)
 
-# Stripe configuration
-stripe.api_key = "YOUR_STRIPE_SECRET_KEY"
+
 
 # Redirect stdout and stderr in main.py as well if needed
 # This ensures all prints go to logger.py's log_messages
@@ -567,4 +566,4 @@ def check_subscription():
         })
 
 if __name__ == "__main__":
-    app.run(debug=True) 
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
