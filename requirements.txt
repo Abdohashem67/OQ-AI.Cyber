@@ -19,3 +19,4 @@ sympy
 cryptography
 stripe
 gunicorn
+flask_cors
