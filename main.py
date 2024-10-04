@@ -567,4 +567,4 @@ def check_subscription():
         })
 
 if __name__ == "__main__":
-    main.run(debug=True)
+    app.run(debug=True) 
