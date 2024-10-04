@@ -20,3 +20,4 @@ cryptography
 stripe
 gunicorn
 flask_cors
+cirq
