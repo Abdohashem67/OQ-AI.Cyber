@@ -567,6 +567,4 @@ def check_subscription():
         })
 
 if __name__ == "__main__":
-    print("Initializing framework...")
-    initialize()
-    app.run(host='0.0.0.0', port=8000, threaded=True)
+    main.run(debug=True)
