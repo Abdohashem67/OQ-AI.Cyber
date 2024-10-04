@@ -18,6 +18,6 @@ numpy
 sympy
 cryptography
 stripe
-gunicorn
-flask_cors
+gunicorn==20.1.0
+flask_cors==2.0.1
 cirq
