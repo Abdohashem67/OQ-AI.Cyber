@@ -1,0 +1,499 @@
+Date/Time:       2024-09-16 17:37:16 
+Command line:    C:\Users\deleo\AppData\Local\Programs\Python\Python312\Scripts\briefcase new -t windows
+
+OS Release:      Windows 11
+OS Version:      10.0.22621
+Architecture:    AMD64
+Platform:        Windows-11-10.0.22621-SP0
+
+Python exe:      C:\Users\deleo\AppData\Local\Programs\Python\Python312\python.exe
+Python version:  3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.19
+Target platform: all
+Target format:   None
+
+Environment Variables:
+	ALLUSERSPROFILE=C:\ProgramData
+	APPDATA=C:\Users\deleo\AppData\Roaming
+	CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_18764_XIFOWIAMRPDUNSNV
+	COLORTERM=truecolor
+	COMMONPROGRAMFILES=C:\Program Files\Common Files
+	COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+	COMMONPROGRAMW6432=C:\Program Files\Common Files
+	COMPUTERNAME=ONENESS
+	COMSPEC=C:\WINDOWS\system32\cmd.exe
+	DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+	EFC_5028=1
+	ETHEREUM_SOCKET=\\.\pipe\geth.ipc
+	GIT_ASKPASS=********************
+	HOMEDRIVE=C:
+	HOMEPATH=\Users\deleo
+	LANG=en_US.UTF-8
+	LOCALAPPDATA=C:\Users\deleo\AppData\Local
+	LOGONSERVER=\\ONENESS
+	NUMBER_OF_PROCESSORS=4
+	ONEDRIVE=C:\Users\deleo\OneDrive
+	ONEDRIVECONSUMER=C:\Users\deleo\OneDrive
+	ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+	OS=Windows_NT
+	PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\deleo\AppData\Local\Programs\Python\Python312;C:\Users\deleo\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Geth;E:\tesseract;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\deleo\AppData\Local\Programs\Python\Python312;C:\Users\deleo\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Geth;E:\tesseract;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\deleo\.cargo\bin;C:\Users\deleo\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\deleo\AppData\Local\Programs\Python\Python312\;C:\Users\deleo\AppData\Local\Programs\Python\Launcher\;C:\Users\deleo\AppData\Local\Microsoft\WindowsApps;C:\Users\deleo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\deleo\AppData\Roaming\npm;C:\Users\deleo\.cargo\bin
+	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+	PROCESSOR_ARCHITECTURE=AMD64
+	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+	PROCESSOR_LEVEL=6
+	PROCESSOR_REVISION=9e09
+	PROGRAMDATA=C:\ProgramData
+	PROGRAMFILES=C:\Program Files
+	PROGRAMFILES(X86)=C:\Program Files (x86)
+	PROGRAMW6432=C:\Program Files
+	PSMODULEPATH=C:\Users\deleo\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+	PUBLIC=C:\Users\Public
+	SESSIONNAME=Console
+	SYSTEMDRIVE=C:
+	SYSTEMROOT=C:\WINDOWS
+	TEMP=C:\Users\deleo\AppData\Local\Temp
+	TERM_PROGRAM=vscode
+	TERM_PROGRAM_VERSION=1.93.1
+	TMP=C:\Users\deleo\AppData\Local\Temp
+	USERDOMAIN=ONENESS
+	USERDOMAIN_ROAMINGPROFILE=ONENESS
+	USERNAME=deleo
+	USERPROFILE=C:\Users\deleo
+	VSCODE_GIT_ASKPASS_EXTRA_ARGS=********************
+	VSCODE_GIT_ASKPASS_MAIN=********************
+	VSCODE_GIT_ASKPASS_NODE=********************
+	VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-048f757ec1-sock
+	VSCODE_INJECTION=1
+	WINDIR=C:\WINDOWS
+	ZES_ENABLE_SYSMAN=1
+
+pyproject.toml:
+[build-system]
+requires = ["briefcase"]
+build-backend = "briefcase"
+
+[project]
+name = "OpenQuantumAI"
+version = "0.1"
+description = "A cybersecurity AI application."
+readme = "README.md"
+homepage = "http://openquantum.ca"
+license.file = "LICENSE"
+authors = [
+    { name = "Jerry Almonte De Leon", email = "info@openquantum.ca" }
+]
+
+[tool.briefcase]
+project_name = "OpenQuantumAI"
+icon = "images/oqlogo.webp"
+sources = ["frontend/", "images/", "video/", "main.py"]
+
+[tool.briefcase.app.OpenQuantumAI]
+module = "main"
+name = "OpenQuantumAI"
+description = "This application utilizes quantum algorithms."
+requires = ["python", "flask", "kivy", "sqlalchemy"]
+icon = "images/oqlogo.webp"
+
+[tool.briefcase.bundle]
+name = "OpenQuantumAI"
+icon = "images/oqlogo.webp"
+
+Briefcase Log:
+[17:30:22]                                                                                                                                                                new.py:705
+           Let's build a new Briefcase app!                                                                                                                               new.py:706
+                                                                                                                                                                          new.py:320
+                                                                                                                                                                          new.py:321
+           -- Formal Name ---------------------------------------------------------------                                                                                 new.py:322
+                                                                                                                                                                          new.py:326
+           First, we need a formal name for your application.                                                                                                             new.py:327
+                                                                                                                                                                                    
+           This is the name that will be displayed to humans whenever the name of the                                                                                               
+           application is displayed. It can have spaces and punctuation if you like, and                                                                                            
+           any capitalization will be used as you type it.                                                                                                                          
+                                                                                                                                                                          new.py:328
+[17:31:26] Formal Name [Hello World]:                                                                                                                                     new.py:472
+           User input: Open Quantum AI version Cybersecurity                                                                                                              new.py:472
+                                                                                                                                                                          new.py:320
+                                                                                                                                                                          new.py:321
+           -- App Name ------------------------------------------------------------------                                                                                 new.py:322
+                                                                                                                                                                          new.py:326
+           Next, we need a name that can serve as a machine-readable Python package name                                                                                  new.py:327
+           for your application.                                                                                                                                                    
+                                                                                                                                                                                    
+           This name must be PEP508-compliant - that means the name may only contain                                                                                                
+           letters, numbers, hyphens and underscores; it can't contain spaces or                                                                                                    
+           punctuation, and it can't start with a hyphen or underscore.                                                                                                             
+                                                                                                                                                                                    
+           Based on your formal name, we suggest an app name of                                                                                                                     
+           'openquantumaiversioncybersecurity', but you can use another name if you want.                                                                                           
+                                                                                                                                                                          new.py:328
+[17:31:50] App Name [openquantumaiversioncybersecurity]:                                                                                                                  new.py:490
+           User input:                                                                                                                                                    new.py:490
+                                                                                                                                                                          new.py:320
+                                                                                                                                                                          new.py:321
+           -- Bundle Identifier ---------------------------------------------------------                                                                                 new.py:322
+                                                                                                                                                                          new.py:326
+           Now we need a bundle identifier for your application.                                                                                                          new.py:327
+                                                                                                                                                                                    
+           App stores need to protect against having multiple applications with the same                                                                                            
+           name; the bundle identifier is the namespace they use to identify applications                                                                                           
+           that come from you. The bundle identifier is usually the domain name of your                                                                                             
+           company or project, in reverse order.                                                                                                                                    
+                                                                                                                                                                                    
+           For example, if you are writing an application for Example Corp, whose website                                                                                           
+           is example.com, your bundle would be 'com.example'. The bundle will be                                                                                                   
+           combined with your application's machine readable name to form a complete                                                                                                
+           application identifier (e.g., com.example.openquantumaiversioncybersecurity).                                                                                            
+                                                                                                                                                                          new.py:328
+[17:32:23] Bundle Identifier [com.example]:                                                                                                                               new.py:514
+           User input: ca.openquantum                                                                                                                                     new.py:514
+                                                                                                                                                                          new.py:320
+                                                                                                                                                                          new.py:321
+           -- Project Name --------------------------------------------------------------                                                                                 new.py:322
+                                                                                                                                                                          new.py:326
+           Briefcase can manage projects that contain multiple applications, so we need a                                                                                 new.py:327
+           Project name.                                                                                                                                                            
+                                                                                                                                                                                    
+           If you're only planning to have one application in this project, you can use                                                                                             
+           the formal name as the project name.                                                                                                                                     
+                                                                                                                                                                          new.py:328
+[17:32:42] Project Name [Open Quantum AI version Cybersecurity]:                                                                                                          new.py:427
+           User input:                                                                                                                                                    new.py:427
+                                                                                                                                                                          new.py:320
+                                                                                                                                                                          new.py:321
+           -- Description ---------------------------------------------------------------                                                                                 new.py:322
+                                                                                                                                                                          new.py:326
+           Now, we need a one line description for your application.                                                                                                      new.py:327
+                                                                                                                                                                          new.py:328
+[17:33:34] Description [My first application]:                                                                                                                            new.py:539
+           User input: Ai application that can run code has web access is a white hat hacker                                                                              new.py:539
+                                                                                                                                                                          new.py:320
+                                                                                                                                                                          new.py:321
+           -- Author --------------------------------------------------------------------                                                                                 new.py:322
+                                                                                                                                                                          new.py:326
+           Who do you want to be credited as the author of this application?                                                                                              new.py:327
+                                                                                                                                                                                    
+           This could be your own name, or the name of your company you work for.                                                                                                   
+                                                                                                                                                                          new.py:328
+[17:33:56] Author [Jane Developer]:                                                                                                                                       new.py:546
+           User input: jerry Almonte De Leon                                                                                                                              new.py:546
+                                                                                                                                                                          new.py:320
+                                                                                                                                                                          new.py:321
+           -- Author's Email ------------------------------------------------------------                                                                                 new.py:322
+                                                                                                                                                                          new.py:326
+           What email address should people use to contact the developers of this                                                                                         new.py:327
+           application?                                                                                                                                                             
+                                                                                                                                                                                    
+           This might be your own email address, or a generic contact address you set up                                                                                            
+           specifically for this application.                                                                                                                                       
+[17:33:57]                                                                                                                                                                new.py:328
+[17:34:13] Author's Email [jerry@openquantum.ca]:                                                                                                                         new.py:557
+           User input:                                                                                                                                                    new.py:557
+                                                                                                                                                                          new.py:320
+                                                                                                                                                                          new.py:321
+           -- Application URL -----------------------------------------------------------                                                                                 new.py:322
+                                                                                                                                                                          new.py:326
+           What is the website URL for this application?                                                                                                                  new.py:327
+                                                                                                                                                                                    
+           If you don't have a website set up yet, you can put in a dummy URL.                                                                                                      
+                                                                                                                                                                          new.py:328
+[17:34:49] Application URL [https://openquantum.ca/openquantumaiversioncybersecurity]:                                                                                    new.py:571
+           User input:                                                                                                                                                    new.py:571
+                                                                                                                                                                          new.py:320
+                                                                                                                                                                          new.py:321
+           -- Project License -----------------------------------------------------------                                                                                 new.py:322
+                                                                                                                                                                          new.py:326
+           What license do you want to use for this project's code?                                                                                                       new.py:327
+                                                                                                                                                                          new.py:328
+             1) BSD license                                                                                                                                           console.py:816
+             2) MIT license                                                                                                                                           console.py:816
+             3) Apache Software License                                                                                                                               console.py:816
+             4) GNU General Public License v2 (GPLv2)                                                                                                                 console.py:816
+             5) GNU General Public License v2 or later (GPLv2+)                                                                                                       console.py:816
+             6) GNU General Public License v3 (GPLv3)                                                                                                                 console.py:816
+             7) GNU General Public License v3 or later (GPLv3+)                                                                                                       console.py:816
+             8) Proprietary                                                                                                                                           console.py:816
+             9) Other                                                                                                                                                 console.py:816
+                                                                                                                                                                      console.py:818
+[17:35:58] Project License [1]:                                                                                                                                       console.py:821
+           User input: 2                                                                                                                                              console.py:821
+                                                                                                                                                                          new.py:320
+                                                                                                                                                                          new.py:321
+           -- GUI Framework -------------------------------------------------------------                                                                                 new.py:322
+                                                                                                                                                                          new.py:326
+           What GUI toolkit do you want to use for this project?                                                                                                          new.py:327
+                                                                                                                                                                                    
+           Additional GUI bootstraps are available; visit                                                                                                                           
+           https://beeware.org/bee/briefcase-bootstraps for a full list of known GUI                                                                                                
+           bootstraps.                                                                                                                                                              
+                                                                                                                                                                          new.py:328
+             1) Toga                                                                                                                                                  console.py:816
+             2) PySide6 (does not support iOS/Android/Web deployment)                                                                                                 console.py:816
+             3) Pygame  (does not support iOS/Android/Web deployment)                                                                                                 console.py:816
+             4) Console (does not support iOS/Android/Web deployment)                                                                                                 console.py:816
+             5) None                                                                                                                                                  console.py:816
+                                                                                                                                                                      console.py:818
+[17:37:14] GUI Framework [1]:                                                                                                                                         console.py:821
+           User input: 1                                                                                                                                              console.py:821
+                                                                                                                                                                          new.py:320
+                                                                                                                                                                          new.py:321
+           ------------------------------------------------------------------------------                                                                                 new.py:322
+                                                                                                                                                                          new.py:713
+           [openquantumaiversioncybersecurity] Generating a new application 'Open Quantum AI version Cybersecurity'                                                       new.py:713
+           Using app template: windows, branch v0.3.19                                                                                                                  base.py:1090
+                                                                                                                                                                      __main__.py:44
+           Unable to clone application template; is the template path 'windows' correct?                                                                              __main__.py:45
+           Saving log... started                                                                                                                                      console.py:390
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\deleo\AppData\Local\Programs\Python\Python312\Lib\site-packages\briefcase\commands\base.py:1041 in _generate_template                                                   │
+│                                                                                                                                                                                  │
+│   1038 │   │                                                                                                                                                                     │
+│   1039 │   │   try:                                                                                                                                                              │
+│   1040 │   │   │   # Unroll the template.                                                                                                                                        │
+│ ❱ 1041 │   │   │   self.tools.cookiecutter(                                                                                                                                      │
+│   1042 │   │   │   │   str(cached_template),                                                                                                                                     │
+│   1043 │   │   │   │   no_input=True,                                                                                                                                            │
+│   1044 │   │   │   │   output_dir=str(output_path),                                                                                                                              │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────── locals ────────────────────────────────────────────────────╮                                                                │
+│ │          branch = 'v0.3.19'                                                                                   │                                                                │
+│ │ cached_template = 'windows'                                                                                   │                                                                │
+│ │   extra_context = {                                                                                           │                                                                │
+│ │                   │   'formal_name': 'Open Quantum AI version Cybersecurity',                                 │                                                                │
+│ │                   │   'app_name': 'openquantumaiversioncybersecurity',                                        │                                                                │
+│ │                   │   'class_name': 'OpenQuantumAIversionCybersecurity',                                      │                                                                │
+│ │                   │   'module_name': 'openquantumaiversioncybersecurity',                                     │                                                                │
+│ │                   │   'source_dir': 'src/openquantumaiversioncybersecurity',                                  │                                                                │
+│ │                   │   'test_source_dir': 'tests',                                                             │                                                                │
+│ │                   │   'project_name': 'Open Quantum AI version Cybersecurity',                                │                                                                │
+│ │                   │   'description': 'Ai application that can run code has web access is a white hat hacker', │                                                                │
+│ │                   │   'author': 'jerry Almonte De Leon',                                                      │                                                                │
+│ │                   │   'author_email': 'jerry@openquantum.ca',                                                 │                                                                │
+│ │                   │   ... +21                                                                                 │                                                                │
+│ │                   }                                                                                           │                                                                │
+│ │     output_path = WindowsPath('E:/OQ-AI v - win')                                                             │                                                                │
+│ │            self = <briefcase.commands.new.NewCommand object at 0x0000012FF8146390>                            │                                                                │
+│ │        template = 'windows'                                                                                   │                                                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                │
+│                                                                                                                                                                                  │
+│ C:\Users\deleo\AppData\Local\Programs\Python\Python312\Lib\site-packages\cookiecutter\main.py:80 in cookiecutter                                                                 │
+│                                                                                                                                                                                  │
+│    77 │   │   config_file=config_file,                                                                                                                                           │
+│    78 │   │   default_config=default_config,                                                                                                                                     │
+│    79 │   )                                                                                                                                                                      │
+│ ❱  80 │   base_repo_dir, cleanup_base_repo_dir = determine_repo_dir(                                                                                                             │
+│    81 │   │   template=template,                                                                                                                                                 │
+│    82 │   │   abbreviations=config_dict['abbreviations'],                                                                                                                        │
+│    83 │   │   clone_to_dir=config_dict['cookiecutters_dir'],                                                                                                                     │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────────────────╮                   │
+│ │            accept_hooks = True                                                                                                                             │                   │
+│ │                checkout = 'v0.3.19'                                                                                                                        │                   │
+│ │             config_dict = {                                                                                                                                │                   │
+│ │                           │   'cookiecutters_dir': 'C:\\Users\\deleo/.cookiecutters/',                                                                     │                   │
+│ │                           │   'replay_dir': 'C:\\Users\\deleo\\AppData\\Local\\BeeWare\\briefcase\\Cache\\templates\\.replay',                             │                   │
+│ │                           │   'default_context': OrderedDict(),                                                                                            │                   │
+│ │                           │   'abbreviations': {                                                                                                           │                   │
+│ │                           │   │   'gh': 'https://github.com/{0}.git',                                                                                      │                   │
+│ │                           │   │   'gl': 'https://gitlab.com/{0}.git',                                                                                      │                   │
+│ │                           │   │   'bb': 'https://bitbucket.org/{0}'                                                                                        │                   │
+│ │                           │   }                                                                                                                            │                   │
+│ │                           }                                                                                                                                │                   │
+│ │             config_file = None                                                                                                                             │                   │
+│ │          default_config = {'replay_dir': 'C:\\Users\\deleo\\AppData\\Local\\BeeWare\\briefcase\\Cache\\templates\\.replay'}                                │                   │
+│ │               directory = None                                                                                                                             │                   │
+│ │           extra_context = {                                                                                                                                │                   │
+│ │                           │   'formal_name': 'Open Quantum AI version Cybersecurity',                                                                      │                   │
+│ │                           │   'app_name': 'openquantumaiversioncybersecurity',                                                                             │                   │
+│ │                           │   'class_name': 'OpenQuantumAIversionCybersecurity',                                                                           │                   │
+│ │                           │   'module_name': 'openquantumaiversioncybersecurity',                                                                          │                   │
+│ │                           │   'source_dir': 'src/openquantumaiversioncybersecurity',                                                                       │                   │
+│ │                           │   'test_source_dir': 'tests',                                                                                                  │                   │
+│ │                           │   'project_name': 'Open Quantum AI version Cybersecurity',                                                                     │                   │
+│ │                           │   'description': 'Ai application that can run code has web access is a white hat hacker',                                      │                   │
+│ │                           │   'author': 'jerry Almonte De Leon',                                                                                           │                   │
+│ │                           │   'author_email': 'jerry@openquantum.ca',                                                                                      │                   │
+│ │                           │   ... +21                                                                                                                      │                   │
+│ │                           }                                                                                                                                │                   │
+│ │ keep_project_on_failure = False                                                                                                                            │                   │
+│ │                no_input = True                                                                                                                             │                   │
+│ │              output_dir = 'E:\\OQ-AI v - win'                                                                                                              │                   │
+│ │     overwrite_if_exists = False                                                                                                                            │                   │
+│ │                password = None                                                                                                                             │                   │
+│ │                  replay = None                                                                                                                             │                   │
+│ │     skip_if_file_exists = False                                                                                                                            │                   │
+│ │                template = 'windows'                                                                                                                        │                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                   │
+│                                                                                                                                                                                  │
+│ C:\Users\deleo\AppData\Local\Programs\Python\Python312\Lib\site-packages\cookiecutter\repository.py:129 in determine_repo_dir                                                    │
+│                                                                                                                                                                                  │
+│   126 │   │   if repository_has_cookiecutter_json(repo_candidate):                                                                                                               │
+│   127 │   │   │   return repo_candidate, cleanup                                                                                                                                 │
+│   128 │                                                                                                                                                                          │
+│ ❱ 129 │   raise RepositoryNotFound(                                                                                                                                              │
+│   130 │   │   'A valid repository for "{}" could not be found in the following '                                                                                                 │
+│   131 │   │   'locations:\n{}'.format(template, '\n'.join(repository_candidates))                                                                                                │
+│   132 │   )                                                                                                                                                                      │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────╮                                          │
+│ │         abbreviations = {'gh': 'https://github.com/{0}.git', 'gl': 'https://gitlab.com/{0}.git', 'bb': 'https://bitbucket.org/{0}'} │                                          │
+│ │              checkout = 'v0.3.19'                                                                                                   │                                          │
+│ │               cleanup = False                                                                                                       │                                          │
+│ │          clone_to_dir = 'C:\\Users\\deleo/.cookiecutters/'                                                                          │                                          │
+│ │             directory = None                                                                                                        │                                          │
+│ │              no_input = True                                                                                                        │                                          │
+│ │              password = None                                                                                                        │                                          │
+│ │        repo_candidate = 'C:\\Users\\deleo/.cookiecutters/windows'                                                                   │                                          │
+│ │ repository_candidates = ['windows', 'C:\\Users\\deleo/.cookiecutters/windows']                                                      │                                          │
+│ │              template = 'windows'                                                                                                   │                                          │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                          │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+RepositoryNotFound: A valid repository for "windows" could not be found in the following locations:
+windows
+C:\Users\deleo/.cookiecutters/windows
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\deleo\AppData\Local\Programs\Python\Python312\Lib\site-packages\briefcase\__main__.py:29 in main                                                                        │
+│                                                                                                                                                                                  │
+│   26 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   27 │   │   │   overrides=overrides,                                                                                                                                            │
+│   28 │   │   )                                                                                                                                                                   │
+│ ❱ 29 │   │   command(**options)                                                                                                                                                  │
+│   30 │   except HelpText as e:                                                                                                                                                   │
+│   31 │   │   logger.info()                                                                                                                                                       │
+│   32 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────── locals ───────────────────────────────────────────╮                                                                                  │
+│ │       command = <briefcase.commands.new.NewCommand object at 0x0000012FF8146390>            │                                                                                  │
+│ │       Command = <class 'briefcase.commands.new.NewCommand'>                                 │                                                                                  │
+│ │       console = <briefcase.console.Console object at 0x0000012FF82EF050>                    │                                                                                  │
+│ │             e = InvalidTemplateRepository('windows')                                        │                                                                                  │
+│ │ extra_cmdline = ['-t', 'windows']                                                           │                                                                                  │
+│ │        logger = <briefcase.console.Log object at 0x0000012FF82EEED0>                        │                                                                                  │
+│ │       options = {'template': 'windows', 'template_branch': None, 'project_overrides': None} │                                                                                  │
+│ │     overrides = {}                                                                          │                                                                                  │
+│ │       printer = <briefcase.console.Printer object at 0x0000012FF7601100>                    │                                                                                  │
+│ │        result = 200                                                                         │                                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                  │
+│                                                                                                                                                                                  │
+│ C:\Users\deleo\AppData\Local\Programs\Python\Python312\Lib\site-packages\briefcase\commands\new.py:769 in __call__                                                               │
+│                                                                                                                                                                                  │
+│   766 │   │   # There are no apps, so finalize() will be a no op on app configurations.                                                                                          │
+│   767 │   │   self.finalize()                                                                                                                                                    │
+│   768 │   │                                                                                                                                                                      │
+│ ❱ 769 │   │   return self.new_app(                                                                                                                                               │
+│   770 │   │   │   template=template,                                                                                                                                             │
+│   771 │   │   │   template_branch=template_branch,                                                                                                                               │
+│   772 │   │   │   project_overrides=parse_project_overrides(project_overrides),                                                                                                  │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────── locals ───────────────────────────────────────╮                                                                                         │
+│ │           options = {}                                                               │                                                                                         │
+│ │ project_overrides = None                                                             │                                                                                         │
+│ │              self = <briefcase.commands.new.NewCommand object at 0x0000012FF8146390> │                                                                                         │
+│ │          template = 'windows'                                                        │                                                                                         │
+│ │   template_branch = None                                                             │                                                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────╯                                                                                         │
+│                                                                                                                                                                                  │
+│ C:\Users\deleo\AppData\Local\Programs\Python\Python312\Lib\site-packages\briefcase\commands\new.py:725 in new_app                                                                │
+│                                                                                                                                                                                  │
+│   722 │   │   │   )                                                                                                                                                              │
+│   723 │   │                                                                                                                                                                      │
+│   724 │   │   # Create the project files                                                                                                                                         │
+│ ❱ 725 │   │   self.generate_template(                                                                                                                                            │
+│   726 │   │   │   template=(                                                                                                                                                     │
+│   727 │   │   │   │   template                                                                                                                                                   │
+│   728 │   │   │   │   if template                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────╮                                                              │
+│ │           context = {                                                                                           │                                                              │
+│ │                     │   'formal_name': 'Open Quantum AI version Cybersecurity',                                 │                                                              │
+│ │                     │   'app_name': 'openquantumaiversioncybersecurity',                                        │                                                              │
+│ │                     │   'class_name': 'OpenQuantumAIversionCybersecurity',                                      │                                                              │
+│ │                     │   'module_name': 'openquantumaiversioncybersecurity',                                     │                                                              │
+│ │                     │   'source_dir': 'src/openquantumaiversioncybersecurity',                                  │                                                              │
+│ │                     │   'test_source_dir': 'tests',                                                             │                                                              │
+│ │                     │   'project_name': 'Open Quantum AI version Cybersecurity',                                │                                                              │
+│ │                     │   'description': 'Ai application that can run code has web access is a white hat hacker', │                                                              │
+│ │                     │   'author': 'jerry Almonte De Leon',                                                      │                                                              │
+│ │                     │   'author_email': 'jerry@openquantum.ca',                                                 │                                                              │
+│ │                     │   ... +18                                                                                 │                                                              │
+│ │                     }                                                                                           │                                                              │
+│ │           options = {}                                                                                          │                                                              │
+│ │ project_overrides = {}                                                                                          │                                                              │
+│ │              self = <briefcase.commands.new.NewCommand object at 0x0000012FF8146390>                            │                                                              │
+│ │          template = 'windows'                                                                                   │                                                              │
+│ │   template_branch = None                                                                                        │                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                              │
+│                                                                                                                                                                                  │
+│ C:\Users\deleo\AppData\Local\Programs\Python\Python312\Lib\site-packages\briefcase\commands\base.py:1094 in generate_template                                                    │
+│                                                                                                                                                                                  │
+│   1091 │   │   │   │   f"Using app template: {template}, branch {template_branch}"                                                                                               │
+│   1092 │   │   │   )                                                                                                                                                             │
+│   1093 │   │   │   # Unroll the new app template                                                                                                                                 │
+│ ❱ 1094 │   │   │   self._generate_template(                                                                                                                                      │
+│   1095 │   │   │   │   template=template,                                                                                                                                        │
+│   1096 │   │   │   │   branch=template_branch,                                                                                                                                   │
+│   1097 │   │   │   │   output_path=output_path,                                                                                                                                  │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────── locals ────────────────────────────────────────────────────╮                                                                │
+│ │          branch = None                                                                                        │                                                                │
+│ │   extra_context = {                                                                                           │                                                                │
+│ │                   │   'formal_name': 'Open Quantum AI version Cybersecurity',                                 │                                                                │
+│ │                   │   'app_name': 'openquantumaiversioncybersecurity',                                        │                                                                │
+│ │                   │   'class_name': 'OpenQuantumAIversionCybersecurity',                                      │                                                                │
+│ │                   │   'module_name': 'openquantumaiversioncybersecurity',                                     │                                                                │
+│ │                   │   'source_dir': 'src/openquantumaiversioncybersecurity',                                  │                                                                │
+│ │                   │   'test_source_dir': 'tests',                                                             │                                                                │
+│ │                   │   'project_name': 'Open Quantum AI version Cybersecurity',                                │                                                                │
+│ │                   │   'description': 'Ai application that can run code has web access is a white hat hacker', │                                                                │
+│ │                   │   'author': 'jerry Almonte De Leon',                                                      │                                                                │
+│ │                   │   'author_email': 'jerry@openquantum.ca',                                                 │                                                                │
+│ │                   │   ... +21                                                                                 │                                                                │
+│ │                   }                                                                                           │                                                                │
+│ │     output_path = WindowsPath('E:/OQ-AI v - win')                                                             │                                                                │
+│ │            self = <briefcase.commands.new.NewCommand object at 0x0000012FF8146390>                            │                                                                │
+│ │        template = 'windows'                                                                                   │                                                                │
+│ │ template_branch = 'v0.3.19'                                                                                   │                                                                │
+│ │         version = <Version('0.3.19')>                                                                         │                                                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                │
+│                                                                                                                                                                                  │
+│ C:\Users\deleo\AppData\Local\Programs\Python\Python312\Lib\site-packages\briefcase\commands\base.py:1058 in _generate_template                                                   │
+│                                                                                                                                                                                  │
+│   1055 │   │   except cookiecutter_exceptions.RepositoryNotFound as e:                                                                                                           │
+│   1056 │   │   │   # Either the template path is invalid,                                                                                                                        │
+│   1057 │   │   │   # or it isn't a cookiecutter template (i.e., no cookiecutter.json)                                                                                            │
+│ ❱ 1058 │   │   │   raise InvalidTemplateRepository(template) from e                                                                                                              │
+│   1059 │   │   except cookiecutter_exceptions.RepositoryCloneFailed as e:                                                                                                        │
+│   1060 │   │   │   # Branch does not exist.                                                                                                                                      │
+│   1061 │   │   │   raise TemplateUnsupportedVersion(branch) from e                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────── locals ────────────────────────────────────────────────────╮                                                                │
+│ │          branch = 'v0.3.19'                                                                                   │                                                                │
+│ │ cached_template = 'windows'                                                                                   │                                                                │
+│ │   extra_context = {                                                                                           │                                                                │
+│ │                   │   'formal_name': 'Open Quantum AI version Cybersecurity',                                 │                                                                │
+│ │                   │   'app_name': 'openquantumaiversioncybersecurity',                                        │                                                                │
+│ │                   │   'class_name': 'OpenQuantumAIversionCybersecurity',                                      │                                                                │
+│ │                   │   'module_name': 'openquantumaiversioncybersecurity',                                     │                                                                │
+│ │                   │   'source_dir': 'src/openquantumaiversioncybersecurity',                                  │                                                                │
+│ │                   │   'test_source_dir': 'tests',                                                             │                                                                │
+│ │                   │   'project_name': 'Open Quantum AI version Cybersecurity',                                │                                                                │
+│ │                   │   'description': 'Ai application that can run code has web access is a white hat hacker', │                                                                │
+│ │                   │   'author': 'jerry Almonte De Leon',                                                      │                                                                │
+│ │                   │   'author_email': 'jerry@openquantum.ca',                                                 │                                                                │
+│ │                   │   ... +21                                                                                 │                                                                │
+│ │                   }                                                                                           │                                                                │
+│ │     output_path = WindowsPath('E:/OQ-AI v - win')                                                             │                                                                │
+│ │            self = <briefcase.commands.new.NewCommand object at 0x0000012FF8146390>                            │                                                                │
+│ │        template = 'windows'                                                                                   │                                                                │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+InvalidTemplateRepository: Unable to clone application template; is the template path 'windows' correct?
