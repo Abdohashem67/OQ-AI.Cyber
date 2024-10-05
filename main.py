@@ -1,7 +1,5 @@
 from flask import Flask, request, jsonify, send_from_directory, Response
 import threading, time, models, os, sys
-from ansio import application_keypad, mouse_input, raw_input
-from ansio.input import InputEvent, get_input_event
 from OpenQuantumAI import OpenQuantumAI, OpenQuantumAIConfig
 from python.helpers.print_style import PrintStyle
 from python.helpers.files import read_file
