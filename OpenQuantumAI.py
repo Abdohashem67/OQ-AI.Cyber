@@ -49,17 +49,17 @@ class OpenQuantumAIConfig:
     code_exec_ssh_pass: str = "toor"
     additional: Dict[str, Any] = field(default_factory=dict)
 
-class StreamToList:
-    def write(self, message):
-        if message.strip():
-            add_log(message)
+# class StreamToList:
+#     def write(self, message):
+#         if message.strip():
+#             add_log(message)
 
-    def flush(self):
-        pass
+#     def flush(self):
+#         pass
 
 # Redirect stdout and stderr to capture print statements
-sys.stdout = StreamToList()
-sys.stderr = StreamToList
+# sys.stdout = StreamToList()
+# sys.stderr = StreamToList
 
 class OpenQuantumAI:
     paused = False

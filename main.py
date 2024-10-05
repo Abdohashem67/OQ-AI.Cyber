@@ -26,6 +26,7 @@ from quantum_sha256 import quantum_sha256
 import stripe
 from datetime import datetime, timedelta
 from typing import Tuple, List, Union
+from twilio.rest import *
 
 app = Flask(__name__)
 
@@ -33,17 +34,17 @@ app = Flask(__name__)
 
 # Redirect stdout and stderr in main.py as well if needed
 # This ensures all prints go to logger.py's log_messages
-class StreamToList:
-    def write(self, message):
-        if message.strip():
-            from logger import add_log
-            add_log(message)
+# class StreamToList:
+#     def write(self, message):
+#         if message.strip():
+#             from logger import add_log
+#             add_log(message)
 
-    def flush(self):
-        pass
+#     def flush(self):
+#         pass
 
-sys.stdout = StreamToList()
-sys.stderr = StreamToList()
+# sys.stdout = StreamToList()
+# sys.stderr = StreamToList()
 
 # Initialize OpenQuantumAI instance
 openai_api_key = None
