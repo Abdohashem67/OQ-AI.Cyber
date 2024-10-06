@@ -1,4 +1,3 @@
-ansio
 python-dotenv
 langchain-groq
 langchain-huggingface
@@ -15,6 +14,7 @@ duckduckgo_search
 inputimeout
 flask
 numpy
+gunicorn
 sympy
 cryptography
 stripe
