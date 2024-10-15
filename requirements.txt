@@ -19,6 +19,6 @@ numpy
 sympy
 cryptography
 stripe
-gunicorn
+waitress
 flask_cors
 cirq
